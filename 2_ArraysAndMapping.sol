@@ -72,12 +72,10 @@ contract SampleVariables
 }
 
 
-// memory :
-// Memory keywords in Solidity are analogous to Computer’s RAM.
-// Much like RAM, Memory in Solidity is a temporary place to store data.
-// The Solidity Smart Contract can use any amount of memory during the execution but once the execution stops, the Memory is completely wiped off for the next execution.
+//public - all can access
 
-// storeage :
-// Storage keywords in Solidity are analogous to Computer’s hard drive.
-// Storage holds data between function calls.
-// Storage is persistent, each execution of the Smart contract has access to the data previously stored on the storage area.
+//external - Cannot be accessed internally, only externally
+
+//internal - only this contract and contracts deriving from it can access
+
+//private - can be accessed only from this contract
